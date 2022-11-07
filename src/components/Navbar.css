@@ -1,3 +1,4 @@
 .nav-body{
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 }

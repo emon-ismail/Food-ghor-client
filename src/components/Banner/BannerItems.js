@@ -4,9 +4,9 @@ import './BannerItems.css';
 const BannerItems = ({slide}) => {
     const {image , id , next , prev} = slide;
     return (
-        <div id={`slide${id}`} className="carousel-item relative w-full">
+        <div id={`slide${id}`} className="carousel-item relative w-full my-0">
             <div className='carousel-img'>
-                <img src={image} alt='' style={{height: '800px' , width: '100%'}} className="w-full rounded-xl" />
+                <img src={image} alt='' style={{height: '100%' , width: '100%'}} className="w-full rounded-xl" />
             </div>
             <div className="absolute flex transform -translate-y-1/2 left-10 lg:left-24 top-1/3">
                 <h1 className='text-white font-semibold lg:font-bold text-3xl lg:text-5xl'>Affordable<br />
