@@ -8,8 +8,8 @@ const Blog = () => {
   <div className="hero-content flex-col lg:flex-row">
     <img src="https://placeimg.com/260/400/arch" className="max-w-sm rounded-lg shadow-2xl " />
     <div>
-      <h1 className="text-3xl font-bold ">What is cors?</h1>
-      <h3 className="py-6 text-2xl ">CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.</h3>
+      <h1 className="text-3xl font-bold ">Difference between SQL and NoSQL</h1>
+      <h3 className="py-6 text-2xl ">SQL is the programming language used to interface with relational databases. (Relational databases model data as records in rows and tables with logical links between them). NoSQL is a class of DBMs that are non-relational and generally do not use SQL.</h3>
      
     </div>
   </div>
@@ -19,9 +19,8 @@ const Blog = () => {
   <div className="hero-content flex-col lg:flex-row">
     <img src="https://placeimg.com/260/400/arch" className="max-w-sm rounded-lg shadow-2xl" />
     <div>
-      <h1 className="text-3xl font-bold">Why are you using firebase? What other options do you have to implement authentication?</h1>
-      <h3 className="py-6 text-2xl ">Firebase helps you develop high-quality apps, grow your user base, and earn more money. Each feature works independently, and they work even better together.
-      Usually, authentication by a server entails the use of a user name and password. Other ways to authenticate can be through cards, retina scans, voice recognition, and fingerprints.</h3>
+      <h1 className="text-3xl font-bold">What is JWT, and how does it work?</h1>
+      <h3 className="py-6 text-2xl ">What is JWT (JSON Web Token)? JSON Web Token (JWT) is an open standard (RFC 7519) for securely transmitting information between parties as JSON object. It is compact, readable and digitally signed using a private key/ or a public key pair by the Identity Provider(IdP)</h3>
      
     </div>
   </div>
@@ -31,8 +30,8 @@ const Blog = () => {
   <div className="hero-content flex-col lg:flex-row">
     <img src="https://placeimg.com/260/400/arch" className="max-w-sm rounded-lg shadow-2xl" />
     <div>
-      <h1 className="text-3xl font-bold"> How does the private route work?</h1>
-      <h3 className="py-6 text-2xl ">The react private route component renders child components ( children ) if the user is logged in. If not logged in the user is redirected to the /login page with the return url passed in the location state property..</h3>
+      <h1 className="text-3xl font-bold"> What is the difference between javascript and NodeJS?</h1>
+      <h3 className="py-6 text-2xl ">JavaScript is a simple programming language that can be used with any browser that has the JavaScript Engine installed. Node. js, on the other hand, is an interpreter or execution environment for the JavaScript programming language.</h3>
      
     </div>
   </div>
@@ -43,9 +42,8 @@ const Blog = () => {
   <div className="hero-content flex-col lg:flex-row">
     <img src="https://placeimg.com/260/400/arch" className="max-w-sm rounded-lg shadow-2xl" />
     <div>
-      <h1 className="text-3xl font-bold"> What is Node? How does Node work?</h1>
-      <h3 className="py-6 text-2xl ">Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications.
-      It is a used as backend service where javascript works on the server-side of the application. This way javascript is used on both frontend and backend. Node. js runs on chrome v8 engine which converts javascript code into machine code, it is highly scalable, lightweight, fast, and data-intensive.</h3>
+      <h1 className="text-3xl font-bold"> How does NodeJS handle multiple requests at the same time?</h1>
+      <h3 className="py-6 text-2xl ">NodeJS receives multiple client requests and places them into EventQueue. NodeJS is built with the concept of event-driven architecture. NodeJS has its own EventLoop which is an infinite loop that receives requests and processes them.</h3>
      
     </div>
   </div>

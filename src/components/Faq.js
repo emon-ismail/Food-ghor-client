@@ -6,10 +6,10 @@ const Faq = () => {
         <div className='faq-body'>
             <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box faq-body">
   <div className="collapse-title text-xl font-medium text-cente">
-<p className='text-center'>Question: Why our Course best?</p>
+<p className='text-center'>Question: Why our Food best?</p>
   </div>
   <div className="collapse-content"> 
-    <h1 className='text-center'>We want to make a skillful nation. and spread skills among all </h1>
+    <h1 className='text-center'>We want to support nature. and we provide authentic food around the country </h1>
   </div>
 </div>
             <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box faq-body">
@@ -22,7 +22,7 @@ const Faq = () => {
 </div>
             <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box faq-body">
   <div className="collapse-title text-xl font-medium text-cente">
-<p className='text-center'>Question: Why our Course best?</p>
+<p className='text-center'>Question: Why our Food best?</p>
   </div>
   <div className="collapse-content"> 
     <h1 className='text-center'>We focus in quality </h1>
@@ -30,10 +30,10 @@ const Faq = () => {
 </div>
             <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box faq-body">
   <div className="collapse-title text-xl font-medium text-cente">
-<p className='text-center'>Question: Why this theme selection?</p>
+<p className='text-center'>Question: Where from this idea?</p>
   </div>
   <div className="collapse-content"> 
-    <h1 className='text-center'>Because developer feel something in this color </h1>
+    <h1 className='text-center'>Developer face so many problem about food thats why developer try to resolve this food issue </h1>
   </div>
 </div>
             
