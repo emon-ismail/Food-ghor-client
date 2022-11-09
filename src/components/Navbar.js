@@ -40,7 +40,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link to='/courses' className='mr-5 hover:text-gray-900 font-bold'>
-                Courses
+                Give Review
               </Link>
 
           {user?.email ? (

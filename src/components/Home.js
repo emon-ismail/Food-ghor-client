@@ -6,6 +6,7 @@ import pc from '../assets/pc.json'
 import Lottie from "lottie-react";
 import Services from './Services'
 import Banner from './Banner/Banner'
+import SeeDetails from './SeeDetails'
 
 const Home = () => {
   const { user } = useContext(AuthContext)
@@ -16,7 +17,8 @@ const Home = () => {
          
          <Banner></Banner>
         <Services></Services>
-  
+    <button className="btn btn-primary  m-10"> <Link to='/seeMore'>See more</Link></button>
+     
  
   
         </div>

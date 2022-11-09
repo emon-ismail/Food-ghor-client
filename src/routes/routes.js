@@ -11,6 +11,8 @@ import Courses from '../components/Courses'
 
 import Faq from '../components/Faq'
 import Blog from '../components/Blog'
+import Checkout from '../components/Checkout'
+import SeeDetails from '../components/SeeDetails'
 
 
 
@@ -31,11 +33,15 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       
-      // {
-      //   path: '/checkout/:id',
-      //   // element: <Checkout></Checkout>,
-      //   loader: ({params})=> fetch(`http://localhost:5000/services/${params.id}`)
-      // },
+      {
+        path: '/checkout/:id',
+        element: <Checkout></Checkout>,
+        loader: ({params})=> fetch(`https://assignment-11-server-lyart.vercel.app/services/${params.id}`)
+      },
+      {
+       path:'/seeMore',
+       element:<SeeDetails></SeeDetails>
+      },
 
 
 

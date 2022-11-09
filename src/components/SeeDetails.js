@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import ServiceCard from './ServiceCard';
 
-const Services = () => {
+const SeeDetails = () => {
     const [services, setServices] = useState([]);
     
     useEffect( () =>{
@@ -11,9 +11,6 @@ const Services = () => {
         .then(res =>res.json())
         .then(data => setServices(data))
     }, []);
-
-    const showThree=services.slice(0,3)
-
     return (
         <div>
             <div className='text-center mb-4'>
@@ -23,7 +20,7 @@ const Services = () => {
             </div>
             <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
                 {
-                   showThree.map(service => <ServiceCard
+                   services.map(service => <ServiceCard
                         key={service._id}
                         service={service}
                     ></ServiceCard>)
@@ -33,4 +30,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default SeeDetails;
