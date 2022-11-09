@@ -13,6 +13,7 @@ import Faq from '../components/Faq'
 import Blog from '../components/Blog'
 import Checkout from '../components/Checkout'
 import SeeDetails from '../components/SeeDetails'
+import SeeAllReview from '../components/SeeAllReview'
 
 
 
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
       {
         path:'/blog',
         element:<Blog></Blog>,
+      },
+      {
+        path:'/seeAllreview',
+        element:<SeeAllReview></SeeAllReview>
       },
    
       {

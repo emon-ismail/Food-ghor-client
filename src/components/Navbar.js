@@ -34,14 +34,19 @@ const Navbar = () => {
                 Blog
               </Link>
 
+            <Link to='/seeAllreview' className='ml-7 hover:text-gray-900 font-bold'>
+                See All Review
+              </Link>
+              
+
         
         <nav className='md:ml-auto flex flex-wrap items-center text-base justify-center'>
           <Link to='/home' className='mr-5 hover:text-gray-900 font-bold'>
             Home
           </Link>
-          <Link to='/courses' className='mr-5 hover:text-gray-900 font-bold'>
+          {/* <Link to='/courses' className='mr-5 hover:text-gray-900 font-bold'>
                 Give Review
-              </Link>
+              </Link> */}
 
           {user?.email ? (
             <>

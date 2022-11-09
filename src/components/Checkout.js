@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../contexts/UserContext';
 import Courses from './Courses';
+import { Link } from 'react-router-dom';
 // import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const Checkout = () => {
@@ -56,9 +57,7 @@ const Checkout = () => {
 
 
     }
-
-    return (
-        // <div>
+     // <div>
         //     <form onSubmit={handlePlaceOrder}>
         //     <figure><img className='object-cover' src={img} alt="Shoes" /></figure>
         //         <h2 className="text-4xl">You are about to order: {title}</h2>
@@ -75,6 +74,9 @@ const Checkout = () => {
         //         <input className='btn' type="submit" value="Place Your Order" />
         //     </form>
         // </div>
+
+    return (
+       
         <div className="card card-compact w-70 bg-base-100 ">
         <figure><img className='object-cover' src={img} alt="Shoes" /></figure>
         <div className="card-body">
@@ -85,7 +87,10 @@ const Checkout = () => {
               
             </div>
         </div>
-        <Courses></Courses>
+
+        <Link to="/courses">
+                    <button className="btn btn-primary ">Give Review</button>
+                </Link>
     </div>
     );
 };

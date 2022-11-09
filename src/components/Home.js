@@ -7,6 +7,8 @@ import Lottie from "lottie-react";
 import Services from './Services'
 import Banner from './Banner/Banner'
 import SeeDetails from './SeeDetails'
+import NewCome from './NewCome'
+import CoreFeatures from './CoreFeatures'
 
 const Home = () => {
   const { user } = useContext(AuthContext)
@@ -19,9 +21,11 @@ const Home = () => {
         <Services></Services>
     <button className="btn btn-primary  m-10"> <Link to='/seeMore'>See more</Link></button>
      
- 
+    <NewCome></NewCome>
+    <CoreFeatures></CoreFeatures>
   
         </div>
+        
         
       </div>
     </section>
