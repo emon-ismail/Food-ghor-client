@@ -55,6 +55,14 @@ const Navbar = () => {
               <Link to='/faq' className='mr-5 hover:text-gray-900 font-bold'>
                 FAQ
               </Link>
+
+              <Link to='/myReview' className='mr-5 hover:text-gray-900 font-bold'>
+                My Review
+              </Link>
+
+              <Link to='/addService' className='mr-5 hover:text-gray-900 font-bold'>
+                Add Service
+              </Link>
               
               <Link to='/profile' className=' text-stone-50 mr-5 hover:text-blue-900 font-bold border-2 p-2'>
                 {user.displayName}

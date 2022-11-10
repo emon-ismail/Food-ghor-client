@@ -7,7 +7,7 @@ const SeeDetails = () => {
     const [services, setServices] = useState([]);
     
     useEffect( () =>{
-        fetch('https://assignment-11-server-lyart.vercel.app/services')
+        fetch('https://assignment-11-server-fjjt0yfhy-emon-ismail.vercel.app/services')
         .then(res =>res.json())
         .then(data => setServices(data))
     }, []);

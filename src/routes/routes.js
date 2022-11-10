@@ -14,6 +14,8 @@ import Blog from '../components/Blog'
 import Checkout from '../components/Checkout'
 import SeeDetails from '../components/SeeDetails'
 import SeeAllReview from '../components/SeeAllReview'
+import MyReview from '../components/MyReview'
+import AddService from '../components/AddService'
 
 
 
@@ -37,7 +39,7 @@ const router = createBrowserRouter([
       {
         path: '/checkout/:id',
         element: <Checkout></Checkout>,
-        loader: ({params})=> fetch(`https://assignment-11-server-lyart.vercel.app/services/${params.id}`)
+        loader: ({params})=> fetch(`https://assignment-11-server-fjjt0yfhy-emon-ismail.vercel.app/services/${params.id}`)
       },
       {
        path:'/seeMore',
@@ -49,6 +51,16 @@ const router = createBrowserRouter([
       {
         path:'/faq',
         element:<Faq></Faq>
+      },
+      {
+        path:'/addService',
+        element:<AddService></AddService>
+      },
+
+      {
+        path:'/myReview',
+        element:<MyReview></MyReview>,
+        // loader: ({params})=> fetch(`https://assignment-11-server-lyart.vercel.app/services/${params.id}`)
       },
       {
         path:'/blog',
