@@ -4,7 +4,7 @@ import Home from '../components/Home'
 import Login from '../components/Login'
 import Register from '../components/Register'
 import Main from '../layout/Main'
-// import Wallet from '../components/Wallet'
+
 import Profile from '../components/Profile'
 import PrivateRoute from './PrivateRoute'
 import Courses from '../components/Courses'
@@ -60,7 +60,7 @@ const router = createBrowserRouter([
       {
         path:'/myReview',
         element:<MyReview></MyReview>,
-        // loader: ({params})=> fetch(`https://assignment-11-server-lyart.vercel.app/services/${params.id}`)
+     
       },
       {
         path:'/blog',
