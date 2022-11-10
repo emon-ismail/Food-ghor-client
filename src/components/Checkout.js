@@ -42,11 +42,7 @@ const Checkout = () => {
             .then(res => res.json())
             .then(data => {
                 console.log(data)
-                // if(data.acknowledged){
-                //     alert('Review placed successfully')
-                //     form.reset();
-                    
-                // }
+             
             })
             .catch(er => console.error(er));
 
@@ -55,55 +51,10 @@ const Checkout = () => {
 
 
 
-    // fetch('https://assignment-11-server-fjjt0yfhy-emon-ismail.vercel.app/services', {
-    //         method: 'POST',
-    //         headers: {
-    //             'content-type': 'application/json',
-    //             // authorization: `Bearer ${localStorage.getItem('genius-token')}`
-    //         },
-    //         body: JSON.stringify(review )
-    //     })
-    //         .then(res => res.json())
-    //         .then(data => {
-    //             console.log(data)
-    //             if(data.acknowledged){
-    //                 alert('Order placed successfully')
-    //                 form.reset();
-                    
-    //             }
-    //         })
-    //         .catch(er => console.error(er));
    
     return (
        
-//         <div className="card card-compact w-70 bg-base-100 ">
-//         <figure><img className='object-cover' src={img} alt="Shoes" /></figure>
-//         <div className="card-body">
-//             <h2 className="card-title">{title}</h2>
-//             <p>{description}</p>
-//             <p className='text-2xl text-orange-600 font-semibold'>Price: ${price}</p>
-//             <div className="card-actions justify-end">
-              
-//             </div>
-//         </div>
 
-//         <Link to="/courses">
-//                     <button className="btn btn-primary ">Give Review</button>
-//                 </Link>
-
-
-
-// {/* start */}
-
-//     <div>
-    
-//     </div>
-
-
-//     </div>
-
-
-// .......
 
 <div>
 <form onSubmit={handlePlaceOrder}>
