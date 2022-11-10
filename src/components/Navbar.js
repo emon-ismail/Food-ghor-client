@@ -34,9 +34,9 @@ const Navbar = () => {
                 Blog
               </Link>
 
-            <Link to='/seeAllreview' className='ml-7 hover:text-gray-900 font-bold'>
+            {/* <Link to='/seeAllreview' className='ml-7 hover:text-gray-900 font-bold'>
                 See All Review
-              </Link>
+              </Link> */}
               
 
         
