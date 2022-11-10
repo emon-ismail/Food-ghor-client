@@ -8,8 +8,7 @@ import './Register.css'
 const Register = () => {
   const [userEmail, setUserEmail] = useState('')
  
-  // const [user, setUser] = useState({});
-  // const [showPass, setShowPass] = useState(false)
+
 
 
 
